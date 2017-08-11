@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A874D9021F3D47780082018A /* UIButton+LTButtonType.m in Sources */ = {isa = PBXBuildFile; fileRef = A874D9011F3D47780082018A /* UIButton+LTButtonType.m */; };
 		A8B863BE1F3C86B7001BE76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B863BD1F3C86B7001BE76B /* main.m */; };
 		A8B863C11F3C86B7001BE76B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B863C01F3C86B7001BE76B /* AppDelegate.m */; };
 		A8B863C41F3C86B7001BE76B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B863C31F3C86B7001BE76B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A874D9001F3D47780082018A /* UIButton+LTButtonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LTButtonType.h"; sourceTree = "<group>"; };
+		A874D9011F3D47780082018A /* UIButton+LTButtonType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LTButtonType.m"; sourceTree = "<group>"; };
 		A8B863B91F3C86B7001BE76B /* LTButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B863BD1F3C86B7001BE76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8B863BF1F3C86B7001BE76B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				A8B863CA1F3C86B7001BE76B /* LaunchScreen.storyboard */,
 				A8B863CD1F3C86B7001BE76B /* Info.plist */,
 				A8B863BC1F3C86B7001BE76B /* Supporting Files */,
+				A874D9001F3D47780082018A /* UIButton+LTButtonType.h */,
+				A874D9011F3D47780082018A /* UIButton+LTButtonType.m */,
 			);
 			path = LTButton;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				A8B863C41F3C86B7001BE76B /* ViewController.m in Sources */,
 				A8B863C11F3C86B7001BE76B /* AppDelegate.m in Sources */,
 				A8B863BE1F3C86B7001BE76B /* main.m in Sources */,
+				A874D9021F3D47780082018A /* UIButton+LTButtonType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,7 @@
 				A8B863D21F3C86B7001BE76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
